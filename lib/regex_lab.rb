@@ -22,7 +22,7 @@ end
 def valid_phone_number?(phone)
     if phone.scan(/[\d\s-()]+/)
       true
-    elsif phone.scan(/[a-z][A-Z]/)
+    else
       false
     end
 end
