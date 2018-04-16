@@ -24,4 +24,5 @@ def valid_phone_number?(phone)
       true
     elsif phone.scan(/[a-z][A-Z]+/)
       false
+    end
 end
